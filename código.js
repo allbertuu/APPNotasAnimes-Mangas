@@ -1,0 +1,1 @@
+var notaFinal = notaAnimação * 2 + notaEnredo * 2 + notaRoteiro * 3 + notaAdaptação * 3;

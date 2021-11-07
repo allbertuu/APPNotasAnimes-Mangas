@@ -1,4 +1,4 @@
-# APPNotasAnimes-Mangas
+# APPNotasAnimes&Mangas
 Programa para calcular notas médias em Animes/Mangás, tendo em vista Roteiro, Animação etc
 
 ## Sendo eles:
