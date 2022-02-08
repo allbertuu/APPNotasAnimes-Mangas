@@ -1,7 +1,10 @@
 # Rate It ⭐
-Quem procura um site online que: <br>
-- calcule notas médias em Animes/Mangás, tendo em vista categorias como Roteiro, Animação etc, em tempo real<br>
-- guarde seus dados de forma segura para posterior análise ou objetivos pessoais<br>
+
+[![banner](./social-preview.png)](https://github.com/allbertuu)
+
+> Quem procura um site online que: <br>
+  - calcule notas médias em Animes/Mangás, tendo em vista categorias como Roteiro, Animação etc, em tempo real<br>
+  - guarde seus dados de forma segura para posterior análise ou objetivos pessoais<br>
 
 #### Então aqui é seu lugar! ✨<br><br>
 
