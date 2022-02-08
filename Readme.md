@@ -1,6 +1,6 @@
 # Rate It ⭐
 
-[![banner](./social-preview.png)](https://github.com/allbertuu)
+[![banner](./screenshots/social-preview.png)](https://github.com/allbertuu)
 
 > Quem procura um site online que: <br>
   - calcule notas médias em Animes/Mangás, tendo em vista categorias como Roteiro, Animação etc, em tempo real<br>
