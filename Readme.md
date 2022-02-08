@@ -1,16 +1,23 @@
-# APPNotasAnimes&Mangas
-Programa para calcular notas médias em Animes/Mangás, tendo em vista Roteiro, Animação etc
+# Rate It ⭐
+Quem procura um site online que: <br>
+- calcule notas médias em Animes/Mangás, tendo em vista categorias como Roteiro, Animação etc, em tempo real<br>
+- guarde seus dados de forma segura para posterior análise ou objetivos pessoais<br>
 
-## Sendo eles:
-Animação / Design de personagens (1 - estranho esteticamente, distoante; 10 - ótimo match de animação e essência do anime)<br>
-Valor * 2<br>
-Enredo (1 - fraco, clichê; 10 - inovador e interessante)<br>
-Valor * 2<br>
-Roteiro (1 - poucos elementos, fraco; 10 - vários elementos interessantes e bem feitos)<br>
-Valor * 3<br>
-Adaptação (1 - rushado, 10 - bem desenvolvido)<br>
-Valor * 3<br>
+#### Então aqui é seu lugar! ✨<br><br>
 
-**Exemplo:**<br>
-*Horimiya*<br>
-9,5 * 2 + 7 * 2 + 7 * 3 + 5 * 3 / 10 = 6,9
+### - Operações ⚙
+O cálculo é feito através de categorias, sendo elas:  
+- Animação / Design de personagens  
+  1 - estranho esteticamente, distoante; 10 - ótimo match de animação e essência do anime  
+- Enredo  
+  1 - fraco, clichê; 10 - inovador e/ou interessante  
+- Roteiro  
+  1 - rushado, 10 - bem desenvolvido  
+
+***Obs.: O cálculo é feito utilizando Média Ponderada***. Logo, os pesos por _default_, são:  
+Animação - 3  
+Enredo - 3  
+Roteiro - 4  
+
+> Importante lembrar que estes pesos podem ser personalizados por você a qualquer momento! ✅  
+> Para isso, vá até ***Configurações*** ou no ícone de '⚙' na área de navegação do site.

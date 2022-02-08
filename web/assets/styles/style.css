@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(19, 52, 80) url(../imgs/bg-2-grande.png) no-repeat center scroll;
+}
+
+/* Media querys 
+body#calculadora {
+    background: rgb(19, 52, 80) url(../imgs/bg-2-grande.png) no-repeat center bottom scroll;
+}
+
+/* Variáveis */
+:root {
+    --cyan: #31deeb;
+}
+
+/* Keyframes */
+@keyframes categorias {
+    from {
+        margin-top: -40px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Grid */
+.row {
+    margin: 0;
+}
+
+/* Elementos textuais */
+h1 {
+    color: var(--cyan);
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+
+body#home h1 {
+    color: white;
+}
+
+h6 {
+    color: rgb(45, 206, 218);
+    margin: 0;
+}
+
+#configs h6 {
+    color: white;
+}
+
+details p {
+    color: rgb(41, 187, 197);
+}
+
+summary {
+    font-style: italic;
+}
+
+.text {
+    color: var(--cyan);
+}
+
+/* Links */
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cyan);
+}
+
+.link-bg-white {
+    color: black;
+}
+
+.link-bg-white:hover {
+    color: rgb(45, 206, 218);
+}
+
+.link-rodape {
+    color: rgb(45, 206, 218);
+    font-weight: bold;
+}
+
+.link-rodape:hover {
+    text-decoration: underline;
+}
+
+.link-text-icons {
+    color: rgb(45, 206, 218);
+}
+
+/* Botões */
+.btn {
+    background-color: var(--cyan);
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--cyan);
+}
+
+.btn-aviso {
+    background-color: var(--yellow);
+}
+
+.btn-aviso:hover {
+    color: var(--yellow);
+}
+
+/* Inputs */
+input:disabled {
+    background-color: transparent;
+    border: none;
+    color: var(--cyan);
+}
+
+/* Separadores */
+.separador-col-rodape {
+    width: 2px;
+    background-color: rgb(19, 52, 80);
+}
+
+/* Área de categorias */
+#categorias {
+    color: white;
+}
+
+.bg-categoria {
+    background-color: rgb(19, 52, 80);
+}
+
+.area-categoria1 {
+    animation: categorias 1.8s;
+}
+.area-categoria2 {
+    animation: categorias 2s;
+}
+.area-categoria3 {
+    animation: categorias 2.2s;
+}
+
+#categorias .form-control {
+    border: 1px solid rgb(49, 233, 247);
+    color: white;
+    background-color: rgb(19, 52, 80);
+}
+
+#categorias .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+/* Navbar */
+nav {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body#home nav {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+button#menu i {
+    color: rgb(45, 209, 221);
+}
+
+button#menu:active {
+    border: 1px solid transparent;
+}
+
+button#menu:focus i {
+    color: white;
+}
+
+button#menu:focus {
+    outline: rgb(45, 209, 221) 0.15rem solid;
+    background-color: rgb(45, 209, 221);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.70rem;
+}
+
+nav ul.navbar-nav a {
+    color: rgb(45, 209, 221);
+}
+
+nav #logo {
+    color: rgb(45, 209, 221);
+}
+
+nav i.fa-cog:hover {
+    color: rgb(40, 191, 202);
+}
+
+/* Configs */
+#area-configuracoes {
+    width: 80%;
+    min-width: 410px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.151);
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    color: white;
+    background-color: rgba(19, 52, 80, 0.897);
+}
+
+/* Footer - Rodapé */
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer i {
+    color: rgb(45, 209, 221);
+    font-size: 1.2rem;
+}
+
+footer #redes-sociais a {
+    display: flex;
+    align-items: center;
+}
+
+/* Login/cadastro */
+#area-login {
+    min-width: 300px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(19, 52, 80, 0.897);
+}
+
+.disclaimer {
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.link {
+    text-decoration: underline;
+}
+
+/* Alertas */
+.modal-footer .btn {
+    background-color: var(--red);
+}
+
+.modal-footer .btn:hover {
+    background-color: var(--red);
+    color: white;
+    box-shadow: inset 1px 3px 8px 3px rgb(0 0 0 / 36%);
+}
+
+.modal-title {
+    color: black;
+}
+
+.modal-content {
+    color: black;
+}
+
+/* Cards */
+.card {
+    width: 30%;
+    min-width: 210px;
+    max-width: 210px;
+    border: none;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    color: rgb(45, 200, 211);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 0.40rem;
+}
+
+.card-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: normal;
+    color: rgb(19, 52, 80);
+    text-align: justify;
+}
+
+.card-img-top {
+    height: 150px;
+}
